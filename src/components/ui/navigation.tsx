@@ -64,7 +64,7 @@ export function Navigation() {
   }, [pathname])
 
   return (
-    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50">
+    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2" style={{ zIndex: 9999999 }}>
       <div className="glass dark:glass-dark backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl px-8 py-4 transition-colors duration-300">
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
@@ -112,7 +112,7 @@ export function Navigation() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden mt-4 pt-4 border-t border-white/20">
+          <div className="md:hidden mt-4 pt-4 border-t border-white/20" style={{ zIndex: 9999999 }}>
             <div className="space-y-2">
               {navItems.map((item) => (
                 <button

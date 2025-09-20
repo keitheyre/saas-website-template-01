@@ -8,11 +8,11 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-accent/10 relative z-10">
+    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-accent/10">
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20">
+      <section className="pt-32 pb-20 relative z-[110]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
@@ -29,7 +29,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-[110]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20">
+      <section className="py-20 relative z-[110]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Our Values</h2>

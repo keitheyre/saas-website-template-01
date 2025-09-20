@@ -92,7 +92,7 @@ export default function CareersPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-accent/10 relative z-10">
+    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-accent/10">
       <Navigation />
 
       {/* Hero Section */}
@@ -113,7 +113,7 @@ export default function CareersPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-[110]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Why Join Us?</h2>
@@ -133,7 +133,7 @@ export default function CareersPage() {
       </section>
 
       {/* Job Openings */}
-      <section className="py-20">
+      <section className="py-20 relative z-[110]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Open Positions</h2>
@@ -164,7 +164,7 @@ export default function CareersPage() {
       </section>
 
       {/* Culture Section */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-[110]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

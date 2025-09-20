@@ -14,7 +14,7 @@
     transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     will-change: transform;
     position: relative;
-    z-index: 10;
+    z-index: 1 !important;
   }
 
   .glass-dark {
@@ -24,7 +24,7 @@
     transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     will-change: transform;
     position: relative;
-    z-index: 10;
+    z-index: 1 !important;
   }
 
   .blob {
@@ -33,7 +33,7 @@
     filter: blur(60px);
     animation: float 6s ease-in-out infinite;
     opacity: 0.3;
-    z-index: -1;
+    z-index: -10;
     pointer-events: none;
   }
 
