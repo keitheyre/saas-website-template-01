@@ -13,7 +13,7 @@
 
 *A modern, responsive SaaS website template built with Next.js 15, featuring glass morphism design, smooth animations, and dark/light theme support.*
 
-[🌐 Live Demo](https://your-demo-url.com) • [📖 Documentation](https://your-docs-url.com) • [🎨 Figma Design](https://your-figma-url.com)
+[📖 View on GitHub](https://github.com/keitheyre/saas-website-template-01)
 
 ![SaaS Template Preview](./public/preview.png)
 
@@ -71,7 +71,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/saas-website-template.git
+   git clone https://github.com/keitheyre/saas-website-template-01.git
    cd saas-website-template
    ```
 
@@ -310,16 +310,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Need help? Here are some options:
 
-- 📧 **Email**: support@yourcompany.com
-- 💬 **Discord**: [Join our community](https://discord.gg/yourserver)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/saas-website-template/issues)
-- 📚 **Documentation**: [Read the docs](https://your-docs-url.com)
+- 📧 **Email**: keith.eyre91@gmail.com
+- 🐛 **Issues**: [Create an issue](https://github.com/keitheyre/saas-website-template-01/issues) on GitHub
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Keith Eyre**
 
 ⭐ Star this repo if you found it helpful!
 
