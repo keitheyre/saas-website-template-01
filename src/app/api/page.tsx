@@ -63,7 +63,7 @@ export default function ApiPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-accent/10">
+    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-accent/10 relative z-10">
       <Navigation />
 
       {/* Hero Section */}
