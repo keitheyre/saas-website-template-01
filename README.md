@@ -15,8 +15,6 @@
 
 [📖 View on GitHub](https://github.com/keitheyre/saas-website-template-01)
 
-![SaaS Template Preview](./public/preview.png)
-
 </div>
 
 ---
