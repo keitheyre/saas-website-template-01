@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { ThemeToggle } from './theme-toggle'
 import { STRINGS } from '../../config/strings'
@@ -36,7 +36,7 @@ export function Navigation() {
     { href: '#contact', label: STRINGS.navigation.contact },
   ]
 
-  const handleNavClick = (href: string) => {
+  const handleNavClick = useCallback((href: string) => {
     // If we're not on the home page, navigate to home page first
     if (pathname !== '/') {
       router.push('/' + href)
@@ -53,7 +53,7 @@ export function Navigation() {
       }
     }
     setIsOpen(false)
-  }
+  }, [pathname, router, navItems])
 
   useEffect(() => {
     // If we're on a page that has a hash, scroll to that section
@@ -61,7 +61,7 @@ export function Navigation() {
     if (hash && navItems.some(item => item.href === hash)) {
       handleNavClick(hash)
     }
-  }, [pathname])
+  }, [pathname, navItems, handleNavClick])
 
   return (
     <nav className="fixed top-6 left-1/2 transform -translate-x-1/2" style={{ zIndex: 9999999 }}>
