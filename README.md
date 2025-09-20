@@ -13,7 +13,7 @@
 
 *A modern, responsive SaaS website template built with Next.js 15, featuring glass morphism design, smooth animations, and dark/light theme support.*
 
-[📖 View on GitHub](https://github.com/keitheyre/saas-website-template-01)
+[🌐 Live Demo](https://base-project-17b33.web.app) • [📖 View on GitHub](https://github.com/keitheyre/saas-website-template-01)
 
 </div>
 
@@ -230,6 +230,9 @@ npm run format       # Format code with Prettier
 ```
 
 ## 🚀 Deployment
+
+### Firebase Hosting (Current)
+Your website is currently deployed at: **https://base-project-17b33.web.app**
 
 ### Vercel (Recommended)
 1. Push your code to GitHub
